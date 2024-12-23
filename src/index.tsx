@@ -5,11 +5,11 @@ import { BrowserRouter } from 'react-router-dom';
 import 'shared/config/i18n/i18n';
 
 render(
-  <BrowserRouter>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
-  </BrowserRouter>,
+    <BrowserRouter>
+        <ThemeProvider>
+            <App />
+        </ThemeProvider>
+    </BrowserRouter>,
 
-  document.getElementById('root')
+    document.getElementById('root'),
 );
