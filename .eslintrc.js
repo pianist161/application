@@ -34,6 +34,7 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'linebreak-style': 0,
         'max-len': ['error', { ignoreComments: true }],
+        'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1 }],
     },
     globals: {
         __IS_DEV__: true, // This defines __IS_DEV__ as a writable global
